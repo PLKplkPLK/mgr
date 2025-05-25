@@ -2,7 +2,7 @@
     "predictions": [
         {
             "filepath": "test_images/2020-01-07 00-47-51.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "75e7ac24-a298-4a2f-bc12-9a153b08b7e6;mammalia;cetartiodactyla;cervidae;dama;dama;common fallow deer",
@@ -32,14 +32,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9986947792349383,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "75e7ac24-a298-4a2f-bc12-9a153b08b7e6;mammalia;cetartiodactyla;cervidae;dama;dama;common fallow deer",
+            "prediction_score": 0.9495472311973572,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-09-05 13-57-18.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "ac0e8ba7-7261-4d17-8645-11ed3d02165a;mammalia;carnivora;canidae;vulpes;vulpes;red fox",
@@ -69,14 +69,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9909563349210657,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "ac0e8ba7-7261-4d17-8645-11ed3d02165a;mammalia;carnivora;canidae;vulpes;vulpes;red fox",
+            "prediction_score": 0.9870604276657104,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-09-06 19-34-11.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -113,7 +113,7 @@
         },
         {
             "filepath": "test_images/2022-09-10 22-41-29.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "73baf300-5592-4ab5-9da8-7da898477934;mammalia;carnivora;mustelidae;meles;meles;eurasian badger",
@@ -143,14 +143,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9941429339814931,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "73baf300-5592-4ab5-9da8-7da898477934;mammalia;carnivora;mustelidae;meles;meles;eurasian badger",
+            "prediction_score": 0.9042874574661255,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-09-13 01-29-08.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "43d7217e-9bc8-42d2-934f-dfdbbbaaf998;mammalia;carnivora;mustelidae;martes;;martes species",
@@ -180,14 +180,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.936854176223278,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "43d7217e-9bc8-42d2-934f-dfdbbbaaf998;mammalia;carnivora;mustelidae;martes;;martes species",
+            "prediction_score": 0.7577868700027466,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-09-13 06-37-29.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "aaf3b049-36e6-46dd-9a07-8a580e9618b7;mammalia;carnivora;canidae;canis;latrans;coyote",
@@ -228,14 +228,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9440281558781862,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "3184697f-51ad-4608-9a28-9edb5500159c;mammalia;carnivora;canidae;;;canine family",
+            "prediction_score": 0.9346284065395594,
+            "prediction_source": "classifier+geofence+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-09-14 22-40-23.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -272,7 +272,7 @@
         },
         {
             "filepath": "test_images/2022-09-18 21-59-44.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -302,14 +302,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9965074465144426,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
+            "prediction_score": 0.8692545294761658,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-09-20 17-30-09.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
@@ -361,14 +361,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9996594465337694,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
+            "prediction_score": 0.9963951706886292,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-10-04 22-50-45.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -393,7 +393,7 @@
         },
         {
             "filepath": "test_images/2022-10-05 06-44-14.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "5c7ce479-8a45-40b3-ae21-7c97dfae22f5;mammalia;cetartiodactyla;cervidae;odocoileus;virginianus;white-tailed deer",
@@ -445,14 +445,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.7901972848922014,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "627c919c-29bc-439b-acde-62b3cd31f8a8;mammalia;cetartiodactyla;cervidae;;;cervidae family",
+            "prediction_score": 0.7727033104747534,
+            "prediction_source": "classifier+geofence+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-10-11 13-37-51.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
@@ -482,14 +482,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9999859408753764,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
+            "prediction_score": 0.9993886947631836,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-10-11 21-01-17.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "aaf3b049-36e6-46dd-9a07-8a580e9618b7;mammalia;carnivora;canidae;canis;latrans;coyote",
@@ -519,14 +519,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "f2d233e3-80e3-433d-9687-e29ecc7a467a;mammalia;;;;;mammal",
             "prediction_score": 0.9094601459801197,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction_source": "classifier+rollup_to_class",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-10-13 06-38-58.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -563,7 +563,7 @@
         },
         {
             "filepath": "test_images/2022-10-15 08-33-11.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "d106b2ea-7474-4da0-bb65-3345d07fdc1f;mammalia;carnivora;mustelidae;martes;martes;pine marten",
@@ -593,14 +593,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.8857870921492577,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction": "43d7217e-9bc8-42d2-934f-dfdbbbaaf998;mammalia;carnivora;mustelidae;martes;;martes species",
+            "prediction_score": 0.7542271167039871,
+            "prediction_source": "classifier+rollup_to_genus",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-10-30 20-48-28.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "ac0e8ba7-7261-4d17-8645-11ed3d02165a;mammalia;carnivora;canidae;vulpes;vulpes;red fox",
@@ -630,14 +630,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9808661048300564,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "ac0e8ba7-7261-4d17-8645-11ed3d02165a;mammalia;carnivora;canidae;vulpes;vulpes;red fox",
+            "prediction_score": 0.9742306470870972,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-11-11 14-13-12.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "3d80f1d6-b1df-4966-9ff4-94053c7a902a;mammalia;carnivora;canidae;canis;familiaris;domestic dog",
@@ -667,14 +667,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9903783123008907,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "3d80f1d6-b1df-4966-9ff4-94053c7a902a;mammalia;carnivora;canidae;canis;familiaris;domestic dog",
+            "prediction_score": 0.9734951853752136,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-11-16 23-45-52.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "43d7217e-9bc8-42d2-934f-dfdbbbaaf998;mammalia;carnivora;mustelidae;martes;;martes species",
@@ -704,14 +704,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.8793563060462475,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "43d7217e-9bc8-42d2-934f-dfdbbbaaf998;mammalia;carnivora;mustelidae;martes;;martes species",
+            "prediction_score": 0.7135650515556335,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-11-19 09-37-54.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -741,14 +741,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9937640038551763,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
+            "prediction_score": 0.9858163595199585,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-11-28 16-40-37.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -773,7 +773,7 @@
         },
         {
             "filepath": "test_images/2022-11-30 05-33-25.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "43d7217e-9bc8-42d2-934f-dfdbbbaaf998;mammalia;carnivora;mustelidae;martes;;martes species",
@@ -803,14 +803,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9786930256523192,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "43d7217e-9bc8-42d2-934f-dfdbbbaaf998;mammalia;carnivora;mustelidae;martes;;martes species",
+            "prediction_score": 0.6676029562950134,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-11-30 08-17-34.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -835,7 +835,7 @@
         },
         {
             "filepath": "test_images/2022-12-01 06-54-54.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "ac0e8ba7-7261-4d17-8645-11ed3d02165a;mammalia;carnivora;canidae;vulpes;vulpes;red fox",
@@ -887,14 +887,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.8810891415923834,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "ac0e8ba7-7261-4d17-8645-11ed3d02165a;mammalia;carnivora;canidae;vulpes;vulpes;red fox",
+            "prediction_score": 0.8149561285972595,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-12-01 16-59-50.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "539ebd55-081b-429a-9ae6-5a6a0f6999d4;mammalia;cetartiodactyla;bovidae;bison;bison;american bison",
@@ -924,14 +924,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9754681014455855,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "8cf3fce2-0078-4347-9e46-5324fd12f8ed;mammalia;cetartiodactyla;bovidae;;;bovidae family",
+            "prediction_score": 0.9709929497912526,
+            "prediction_source": "classifier+geofence+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-12-03 04-00-38.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -968,7 +968,7 @@
         },
         {
             "filepath": "test_images/2022-12-03 05-18-46.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
@@ -998,14 +998,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.989519132534042,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
+            "prediction_score": 0.9672496318817139,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-12-04 14-41-11.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -1030,7 +1030,7 @@
         },
         {
             "filepath": "test_images/2022-12-05 08-12-37.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
@@ -1181,14 +1181,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9897903392557055,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
+            "prediction_score": 0.9697560667991638,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-12-07 03-29-44.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "b57debc1-dff2-48d3-a400-f2b5021e71b0;mammalia;carnivora;procyonidae;procyon;lotor;northern raccoon",
@@ -1218,14 +1218,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.8992475504055619,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "b57debc1-dff2-48d3-a400-f2b5021e71b0;mammalia;carnivora;procyonidae;procyon;lotor;northern raccoon",
+            "prediction_score": 0.8091427087783813,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-12-07 14-37-26.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "5c7ce479-8a45-40b3-ae21-7c97dfae22f5;mammalia;cetartiodactyla;cervidae;odocoileus;virginianus;white-tailed deer",
@@ -1277,14 +1277,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "627c919c-29bc-439b-acde-62b3cd31f8a8;mammalia;cetartiodactyla;cervidae;;;cervidae family",
             "prediction_score": 0.9930137924384326,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction_source": "classifier+geofence+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-12-08 01-39-30.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "c5ce946f-8f0d-4379-992b-cc0982381f5e;mammalia;cetartiodactyla;cervidae;cervus;canadensis;elk",
@@ -1314,14 +1314,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9349368140101433,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction": "9388f0bc-910e-4324-84de-414feca9b4f7;mammalia;cetartiodactyla;cervidae;cervus;;cervus species",
+            "prediction_score": 0.8849945664405823,
+            "prediction_source": "classifier+rollup_to_genus",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-12-08 04-05-01.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "aaf3b049-36e6-46dd-9a07-8a580e9618b7;mammalia;carnivora;canidae;canis;latrans;coyote",
@@ -1351,14 +1351,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9633471672423184,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "3184697f-51ad-4608-9a28-9edb5500159c;mammalia;carnivora;canidae;;;canine family",
+            "prediction_score": 0.9588002706877887,
+            "prediction_source": "classifier+geofence+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-12-14 00-23-46.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -1428,7 +1428,7 @@
         },
         {
             "filepath": "test_images/2022-12-15 03-24-41.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "5c7ce479-8a45-40b3-ae21-7c97dfae22f5;mammalia;cetartiodactyla;cervidae;odocoileus;virginianus;white-tailed deer",
@@ -1469,14 +1469,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "627c919c-29bc-439b-acde-62b3cd31f8a8;mammalia;cetartiodactyla;cervidae;;;cervidae family",
             "prediction_score": 0.8009163811802864,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction_source": "classifier+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-12-16 02-26-35.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -1506,14 +1506,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9819402173161507,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
+            "prediction_score": 0.9247410297393799,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-12-23 03-59-18.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "5c7ce479-8a45-40b3-ae21-7c97dfae22f5;mammalia;cetartiodactyla;cervidae;odocoileus;virginianus;white-tailed deer",
@@ -1554,14 +1554,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.8991462159901857,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "627c919c-29bc-439b-acde-62b3cd31f8a8;mammalia;cetartiodactyla;cervidae;;;cervidae family",
+            "prediction_score": 0.8852866999804974,
+            "prediction_source": "classifier+geofence+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-12-23 04-14-51.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "aaf3b049-36e6-46dd-9a07-8a580e9618b7;mammalia;carnivora;canidae;canis;latrans;coyote",
@@ -1602,14 +1602,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "3184697f-51ad-4608-9a28-9edb5500159c;mammalia;carnivora;canidae;;;canine family",
             "prediction_score": 0.8556264685466886,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction_source": "classifier+geofence+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2022-12-27 21-51-25.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "5c7ce479-8a45-40b3-ae21-7c97dfae22f5;mammalia;cetartiodactyla;cervidae;odocoileus;virginianus;white-tailed deer",
@@ -1661,14 +1661,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "627c919c-29bc-439b-acde-62b3cd31f8a8;mammalia;cetartiodactyla;cervidae;;;cervidae family",
             "prediction_score": 0.9837092244997621,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction_source": "classifier+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-01-01 08-20-10.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -1698,14 +1698,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9949525855481625,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
+            "prediction_score": 0.9785240888595581,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-02-03 00-53-19.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -1735,14 +1735,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.807851018384099,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
+            "prediction_score": 0.6824887990951538,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-02-03 06-38-18.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "43d7217e-9bc8-42d2-934f-dfdbbbaaf998;mammalia;carnivora;mustelidae;martes;;martes species",
@@ -1772,14 +1772,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.843113623559475,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction": "43d7217e-9bc8-42d2-934f-dfdbbbaaf998;mammalia;carnivora;mustelidae;martes;;martes species",
+            "prediction_score": 0.7968610152602196,
+            "prediction_source": "classifier+rollup_to_genus",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-02-04 05-07-49.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "ac0e8ba7-7261-4d17-8645-11ed3d02165a;mammalia;carnivora;canidae;vulpes;vulpes;red fox",
@@ -1875,14 +1875,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9809299455955625,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "ac0e8ba7-7261-4d17-8645-11ed3d02165a;mammalia;carnivora;canidae;vulpes;vulpes;red fox",
+            "prediction_score": 0.97022545337677,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-02-06 15-36-48.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -1923,14 +1923,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9995142595435027,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
+            "prediction_score": 0.9951987862586975,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-02-23 16-50-45.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "ac0e8ba7-7261-4d17-8645-11ed3d02165a;mammalia;carnivora;canidae;vulpes;vulpes;red fox",
@@ -1960,14 +1960,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.988298631622456,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "ac0e8ba7-7261-4d17-8645-11ed3d02165a;mammalia;carnivora;canidae;vulpes;vulpes;red fox",
+            "prediction_score": 0.982885479927063,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-02-27 23-23-21.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "43d7217e-9bc8-42d2-934f-dfdbbbaaf998;mammalia;carnivora;mustelidae;martes;;martes species",
@@ -1997,14 +1997,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9764844556339085,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction": "43d7217e-9bc8-42d2-934f-dfdbbbaaf998;mammalia;carnivora;mustelidae;martes;;martes species",
+            "prediction_score": 0.868365116417408,
+            "prediction_source": "classifier+rollup_to_genus",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-02-28 04-18-55.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "ee8d5a89-f82e-4323-80e2-0ffc9487ebaf;mammalia;carnivora;canidae;canis;lupus;grey wolf",
@@ -2034,14 +2034,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9956045436556451,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction": "d3d5325f-b055-4925-b875-5cd28af54215;mammalia;carnivora;canidae;canis;;canis species",
+            "prediction_score": 0.9924412296968512,
+            "prediction_source": "classifier+rollup_to_genus",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-03-01 20-06-01.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "43d7217e-9bc8-42d2-934f-dfdbbbaaf998;mammalia;carnivora;mustelidae;martes;;martes species",
@@ -2071,14 +2071,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.8976627662777901,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction": "43d7217e-9bc8-42d2-934f-dfdbbbaaf998;mammalia;carnivora;mustelidae;martes;;martes species",
+            "prediction_score": 0.8472555950284004,
+            "prediction_source": "classifier+rollup_to_genus",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-03-04 01-35-07.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "ce9a5481-b3f7-4e42-8b8b-382f601fded0;mammalia;lagomorpha;leporidae;lepus;europaeus;european hare",
@@ -2108,14 +2108,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9952926125843078,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "ce9a5481-b3f7-4e42-8b8b-382f601fded0;mammalia;lagomorpha;leporidae;lepus;europaeus;european hare",
+            "prediction_score": 0.9891442656517029,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-04-15 20-53-34.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "43d7217e-9bc8-42d2-934f-dfdbbbaaf998;mammalia;carnivora;mustelidae;martes;;martes species",
@@ -2145,14 +2145,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9938044471200556,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction": "43d7217e-9bc8-42d2-934f-dfdbbbaaf998;mammalia;carnivora;mustelidae;martes;;martes species",
+            "prediction_score": 0.9650665819644928,
+            "prediction_source": "classifier+rollup_to_genus",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-04-19 13-12-05.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -2182,14 +2182,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9932701508514583,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
+            "prediction_score": 0.9466203451156616,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-04-25 04-19-55.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "aaf3b049-36e6-46dd-9a07-8a580e9618b7;mammalia;carnivora;canidae;canis;latrans;coyote",
@@ -2241,14 +2241,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.8228275775909424,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction": "d3d5325f-b055-4925-b875-5cd28af54215;mammalia;carnivora;canidae;canis;;canis species",
+            "prediction_score": 0.7621624544262886,
+            "prediction_source": "classifier+rollup_to_genus",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-04-25 10-45-27.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "aba05f1e-020f-49ce-a5c3-528482e1c5ce;mammalia;rodentia;sciuridae;sciurus;vulgaris;eurasian red squirrel",
@@ -2278,14 +2278,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9930365277105011,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "aba05f1e-020f-49ce-a5c3-528482e1c5ce;mammalia;rodentia;sciuridae;sciurus;vulgaris;eurasian red squirrel",
+            "prediction_score": 0.9473134875297546,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-04-25 18-58-29.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "d372cda5-a8ca-4b7b-97ed-4e4fab9c9b4b;mammalia;cetartiodactyla;suidae;sus;scrofa;wild boar",
@@ -2326,14 +2326,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.984609380364418,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "d372cda5-a8ca-4b7b-97ed-4e4fab9c9b4b;mammalia;cetartiodactyla;suidae;sus;scrofa;wild boar",
+            "prediction_score": 0.9726908206939697,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-04-28 22-11-47.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "d372cda5-a8ca-4b7b-97ed-4e4fab9c9b4b;mammalia;cetartiodactyla;suidae;sus;scrofa;wild boar",
@@ -2385,14 +2385,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.7037765984423459,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "d372cda5-a8ca-4b7b-97ed-4e4fab9c9b4b;mammalia;cetartiodactyla;suidae;sus;scrofa;wild boar",
+            "prediction_score": 0.6695546507835388,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-04-29 15-51-15.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "d106b2ea-7474-4da0-bb65-3345d07fdc1f;mammalia;carnivora;mustelidae;martes;martes;pine marten",
@@ -2422,14 +2422,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9339905930683017,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "d106b2ea-7474-4da0-bb65-3345d07fdc1f;mammalia;carnivora;mustelidae;martes;martes;pine marten",
+            "prediction_score": 0.7774333357810974,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-05-01 00-04-04.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "d372cda5-a8ca-4b7b-97ed-4e4fab9c9b4b;mammalia;cetartiodactyla;suidae;sus;scrofa;wild boar",
@@ -2466,7 +2466,7 @@
         },
         {
             "filepath": "test_images/2023-05-01 20-37-52.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -2491,7 +2491,7 @@
         },
         {
             "filepath": "test_images/2023-05-02 02-56-03.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -2532,14 +2532,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "f2d233e3-80e3-433d-9687-e29ecc7a467a;mammalia;;;;;mammal",
             "prediction_score": 0.7707611955702305,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction_source": "classifier+rollup_to_class",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-05-04 06-46-05.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -2576,7 +2576,7 @@
         },
         {
             "filepath": "test_images/2023-05-05 17-07-19.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "5c7ce479-8a45-40b3-ae21-7c97dfae22f5;mammalia;cetartiodactyla;cervidae;odocoileus;virginianus;white-tailed deer",
@@ -2617,14 +2617,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "627c919c-29bc-439b-acde-62b3cd31f8a8;mammalia;cetartiodactyla;cervidae;;;cervidae family",
             "prediction_score": 0.9630759637802839,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction_source": "classifier+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-05-08 08-22-41.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -2672,7 +2672,7 @@
         },
         {
             "filepath": "test_images/2023-05-08 17-09-11.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "d372cda5-a8ca-4b7b-97ed-4e4fab9c9b4b;mammalia;cetartiodactyla;suidae;sus;scrofa;wild boar",
@@ -2702,14 +2702,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9984518689961988,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "d372cda5-a8ca-4b7b-97ed-4e4fab9c9b4b;mammalia;cetartiodactyla;suidae;sus;scrofa;wild boar",
+            "prediction_score": 0.9979705214500427,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-05-09 04-36-44.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "b57debc1-dff2-48d3-a400-f2b5021e71b0;mammalia;carnivora;procyonidae;procyon;lotor;northern raccoon",
@@ -2750,14 +2750,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "f2d233e3-80e3-433d-9687-e29ecc7a467a;mammalia;;;;;mammal",
             "prediction_score": 0.8084148950874805,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction_source": "classifier+rollup_to_class",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-05-09 07-34-05.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -2809,14 +2809,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.8237628303468227,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
+            "prediction_score": 0.7329116463661194,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-05-10 00-01-03.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -2853,7 +2853,7 @@
         },
         {
             "filepath": "test_images/2023-05-15 00-07-06.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "b57debc1-dff2-48d3-a400-f2b5021e71b0;mammalia;carnivora;procyonidae;procyon;lotor;northern raccoon",
@@ -2894,14 +2894,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "eeeb5d26-2a47-4d01-a3de-10b33ec0aee4;mammalia;carnivora;;;;carnivorous mammal",
             "prediction_score": 0.9002901203930378,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction_source": "classifier+rollup_to_order",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-05-15 18-24-55.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "d372cda5-a8ca-4b7b-97ed-4e4fab9c9b4b;mammalia;cetartiodactyla;suidae;sus;scrofa;wild boar",
@@ -2931,14 +2931,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9957835594541393,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "d372cda5-a8ca-4b7b-97ed-4e4fab9c9b4b;mammalia;cetartiodactyla;suidae;sus;scrofa;wild boar",
+            "prediction_score": 0.9838093519210815,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-05-24 07-52-51.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -3023,14 +3023,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9821585635654628,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
+            "prediction_score": 0.671858549118042,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-05-28 06-50-32.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "d372cda5-a8ca-4b7b-97ed-4e4fab9c9b4b;mammalia;cetartiodactyla;suidae;sus;scrofa;wild boar",
@@ -3060,14 +3060,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9989389285110519,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "d372cda5-a8ca-4b7b-97ed-4e4fab9c9b4b;mammalia;cetartiodactyla;suidae;sus;scrofa;wild boar",
+            "prediction_score": 0.9981537461280823,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-06-04 19-57-55.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "75e7ac24-a298-4a2f-bc12-9a153b08b7e6;mammalia;cetartiodactyla;cervidae;dama;dama;common fallow deer",
@@ -3097,14 +3097,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "627c919c-29bc-439b-acde-62b3cd31f8a8;mammalia;cetartiodactyla;cervidae;;;cervidae family",
             "prediction_score": 0.9257029201835394,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction_source": "classifier+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-06-14 13-04-45.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -3129,7 +3129,7 @@
         },
         {
             "filepath": "test_images/2023-07-05 08-07-38.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -3154,7 +3154,7 @@
         },
         {
             "filepath": "test_images/2023-07-06 18-19-53.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -3202,7 +3202,7 @@
         },
         {
             "filepath": "test_images/2023-07-07 03-11-31.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -3232,14 +3232,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9275965820997953,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction": "627c919c-29bc-439b-acde-62b3cd31f8a8;mammalia;cetartiodactyla;cervidae;;;cervidae family",
+            "prediction_score": 0.9109412916004658,
+            "prediction_source": "classifier+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-07-08 07-43-18.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
@@ -3269,14 +3269,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9996906383312307,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
+            "prediction_score": 0.9954347014427185,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-07-09 19-30-17.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "ee8d5a89-f82e-4323-80e2-0ffc9487ebaf;mammalia;carnivora;canidae;canis;lupus;grey wolf",
@@ -3306,14 +3306,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9886475168168545,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "ee8d5a89-f82e-4323-80e2-0ffc9487ebaf;mammalia;carnivora;canidae;canis;lupus;grey wolf",
+            "prediction_score": 0.747219979763031,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-07-10 04-41-00.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "d372cda5-a8ca-4b7b-97ed-4e4fab9c9b4b;mammalia;cetartiodactyla;suidae;sus;scrofa;wild boar",
@@ -3343,14 +3343,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.884233764372766,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "d372cda5-a8ca-4b7b-97ed-4e4fab9c9b4b;mammalia;cetartiodactyla;suidae;sus;scrofa;wild boar",
+            "prediction_score": 0.8171364068984985,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-07-11 21-08-53.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -3375,7 +3375,7 @@
         },
         {
             "filepath": "test_images/2023-07-11 22-53-21.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "73baf300-5592-4ab5-9da8-7da898477934;mammalia;carnivora;mustelidae;meles;meles;eurasian badger",
@@ -3405,14 +3405,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9998362867045216,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "73baf300-5592-4ab5-9da8-7da898477934;mammalia;carnivora;mustelidae;meles;meles;eurasian badger",
+            "prediction_score": 0.9974715709686279,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-07-15 14-26-37.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "5c7ce479-8a45-40b3-ae21-7c97dfae22f5;mammalia;cetartiodactyla;cervidae;odocoileus;virginianus;white-tailed deer",
@@ -3508,14 +3508,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "627c919c-29bc-439b-acde-62b3cd31f8a8;mammalia;cetartiodactyla;cervidae;;;cervidae family",
             "prediction_score": 0.99254824698437,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction_source": "classifier+geofence+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-07-16 01-15-57.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -3540,7 +3540,7 @@
         },
         {
             "filepath": "test_images/2023-07-18 02-04-12.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "43d7217e-9bc8-42d2-934f-dfdbbbaaf998;mammalia;carnivora;mustelidae;martes;;martes species",
@@ -3592,14 +3592,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9609710238873959,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "43d7217e-9bc8-42d2-934f-dfdbbbaaf998;mammalia;carnivora;mustelidae;martes;;martes species",
+            "prediction_score": 0.6663053631782532,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-07-19 10-06-58.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "d372cda5-a8ca-4b7b-97ed-4e4fab9c9b4b;mammalia;cetartiodactyla;suidae;sus;scrofa;wild boar",
@@ -3739,14 +3739,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9943388675455935,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "d372cda5-a8ca-4b7b-97ed-4e4fab9c9b4b;mammalia;cetartiodactyla;suidae;sus;scrofa;wild boar",
+            "prediction_score": 0.9894278645515442,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-07-25 22-50-58.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "aaf3b049-36e6-46dd-9a07-8a580e9618b7;mammalia;carnivora;canidae;canis;latrans;coyote",
@@ -3787,14 +3787,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "3184697f-51ad-4608-9a28-9edb5500159c;mammalia;carnivora;canidae;;;canine family",
             "prediction_score": 0.9842824353836477,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction_source": "classifier+geofence+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-07-26 01-13-30.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "87be3a5c-e60a-4e7e-88c7-21544914d067;mammalia;didelphimorphia;didelphidae;didelphis;virginiana;virginia opossum",
@@ -3824,14 +3824,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9226252920925617,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "22f3d415-b3bc-4e37-a81a-504a69897974;mammalia;didelphimorphia;didelphidae;;;possum family",
+            "prediction_score": 0.8692339723929763,
+            "prediction_source": "classifier+geofence+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-07-27 00-39-21.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "5c7ce479-8a45-40b3-ae21-7c97dfae22f5;mammalia;cetartiodactyla;cervidae;odocoileus;virginianus;white-tailed deer",
@@ -3861,14 +3861,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9640823397785425,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "627c919c-29bc-439b-acde-62b3cd31f8a8;mammalia;cetartiodactyla;cervidae;;;cervidae family",
+            "prediction_score": 0.9524677973240614,
+            "prediction_source": "classifier+geofence+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-07-27 17-11-20.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -3898,14 +3898,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9988879141164944,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
+            "prediction_score": 0.9864774942398071,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-08-01 03-36-25.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "b3f3e9e3-440d-44df-9a89-081f276c8bdd;mammalia;rodentia;sciuridae;tamiasciurus;hudsonicus;red squirrel",
@@ -3935,14 +3935,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "e4d1e892-0e4b-475a-a8ac-b5c3502e0d55;mammalia;rodentia;sciuridae;;;sciuridae family",
             "prediction_score": 0.8328704088926315,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction_source": "classifier+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-08-02 06-17-17.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "5c7ce479-8a45-40b3-ae21-7c97dfae22f5;mammalia;cetartiodactyla;cervidae;odocoileus;virginianus;white-tailed deer",
@@ -3972,14 +3972,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "627c919c-29bc-439b-acde-62b3cd31f8a8;mammalia;cetartiodactyla;cervidae;;;cervidae family",
             "prediction_score": 0.964625018183142,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction_source": "classifier+geofence+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-08-04 02-12-23.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -4009,14 +4009,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9990385924756993,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
+            "prediction_score": 0.7850289940834045,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/2023-08-05 10-24-22.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "f1856211-cfb7-4a5b-9158-c0f72fd09ee6;;;;;;blank",
@@ -4053,7 +4053,7 @@
         },
         {
             "filepath": "test_images/2023-08-06 10-22-02.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "aba05f1e-020f-49ce-a5c3-528482e1c5ce;mammalia;rodentia;sciuridae;sciurus;vulgaris;eurasian red squirrel",
@@ -4083,14 +4083,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9998987418712204,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "aba05f1e-020f-49ce-a5c3-528482e1c5ce;mammalia;rodentia;sciuridae;sciurus;vulgaris;eurasian red squirrel",
+            "prediction_score": 0.9996097683906555,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0006.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "429257d4-3ef2-47fb-b849-66ee6c107346;mammalia;cetartiodactyla;cervidae;alces;alces;moose",
@@ -4131,14 +4131,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9997704812631127,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "429257d4-3ef2-47fb-b849-66ee6c107346;mammalia;cetartiodactyla;cervidae;alces;alces;moose",
+            "prediction_score": 0.9995607733726501,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0016.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "5c7ce479-8a45-40b3-ae21-7c97dfae22f5;mammalia;cetartiodactyla;cervidae;odocoileus;virginianus;white-tailed deer",
@@ -4190,14 +4190,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "627c919c-29bc-439b-acde-62b3cd31f8a8;mammalia;cetartiodactyla;cervidae;;;cervidae family",
             "prediction_score": 0.9950846328865737,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction_source": "classifier+geofence+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0018.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "ac0e8ba7-7261-4d17-8645-11ed3d02165a;mammalia;carnivora;canidae;vulpes;vulpes;red fox",
@@ -4238,14 +4238,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9826912533026189,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "ac0e8ba7-7261-4d17-8645-11ed3d02165a;mammalia;carnivora;canidae;vulpes;vulpes;red fox",
+            "prediction_score": 0.9679248929023743,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0035 (2).JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "429257d4-3ef2-47fb-b849-66ee6c107346;mammalia;cetartiodactyla;cervidae;alces;alces;moose",
@@ -4275,14 +4275,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9998639956465922,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "429257d4-3ef2-47fb-b849-66ee6c107346;mammalia;cetartiodactyla;cervidae;alces;alces;moose",
+            "prediction_score": 0.9987788796424866,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0035.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -4312,14 +4312,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9966015156242065,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
+            "prediction_score": 0.912401556968689,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0036 (3).JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -4360,14 +4360,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9987986872438341,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
+            "prediction_score": 0.9918332099914551,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0036.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -4408,14 +4408,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9987986872438341,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
+            "prediction_score": 0.9918332099914551,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0040.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
@@ -4467,14 +4467,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9999551089094894,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
+            "prediction_score": 0.9989836812019348,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0046.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "75e7ac24-a298-4a2f-bc12-9a153b08b7e6;mammalia;cetartiodactyla;cervidae;dama;dama;common fallow deer",
@@ -4504,14 +4504,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "627c919c-29bc-439b-acde-62b3cd31f8a8;mammalia;cetartiodactyla;cervidae;;;cervidae family",
             "prediction_score": 0.98100421205163,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction_source": "classifier+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0050.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "ee8d5a89-f82e-4323-80e2-0ffc9487ebaf;mammalia;carnivora;canidae;canis;lupus;grey wolf",
@@ -4541,14 +4541,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9952902684453875,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "ee8d5a89-f82e-4323-80e2-0ffc9487ebaf;mammalia;carnivora;canidae;canis;lupus;grey wolf",
+            "prediction_score": 0.81870037317276,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0055.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
@@ -4611,14 +4611,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9877790375612676,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
+            "prediction_score": 0.9268206357955933,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0058.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "429257d4-3ef2-47fb-b849-66ee6c107346;mammalia;cetartiodactyla;cervidae;alces;alces;moose",
@@ -4670,14 +4670,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9999517196993111,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "429257d4-3ef2-47fb-b849-66ee6c107346;mammalia;cetartiodactyla;cervidae;alces;alces;moose",
+            "prediction_score": 0.9978589415550232,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0081.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
@@ -4740,14 +4740,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9976620839443058,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
+            "prediction_score": 0.880881130695343,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0085.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
@@ -4810,14 +4810,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9797616878058761,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "317171d7-d306-4e71-9a4a-33e62012076b;mammalia;cetartiodactyla;cervidae;capreolus;capreolus;european roe deer",
+            "prediction_score": 0.9591152667999268,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0094.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
@@ -4847,14 +4847,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9983961436373647,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
+            "prediction_score": 0.9923861026763916,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0100.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "330bb1e9-84d6-4e41-afa9-938aee17ea29;mammalia;carnivora;ursidae;ursus;arctos;brown bear",
@@ -4884,14 +4884,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.969757498241961,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "330bb1e9-84d6-4e41-afa9-938aee17ea29;mammalia;carnivora;ursidae;ursus;arctos;brown bear",
+            "prediction_score": 0.6570290327072144,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0125.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "6f5cfe6e-4d2f-4a39-b7eb-cffe6aef7de1;mammalia;carnivora;felidae;prionailurus;bengalensis;leopard cat",
@@ -4932,14 +4932,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "df8514b0-10a5-411f-8ed6-0f415e8153a3;mammalia;carnivora;felidae;;;cat family",
             "prediction_score": 0.9434132855385542,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction_source": "classifier+geofence+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0130.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "330bb1e9-84d6-4e41-afa9-938aee17ea29;mammalia;carnivora;ursidae;ursus;arctos;brown bear",
@@ -4969,14 +4969,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9998130748244876,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "330bb1e9-84d6-4e41-afa9-938aee17ea29;mammalia;carnivora;ursidae;ursus;arctos;brown bear",
+            "prediction_score": 0.9973656535148621,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0194.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "573c85b2-4dac-406f-bcd2-ab2448fd234c;mammalia;carnivora;felidae;leptailurus;serval;serval",
@@ -5017,14 +5017,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "df8514b0-10a5-411f-8ed6-0f415e8153a3;mammalia;carnivora;felidae;;;cat family",
             "prediction_score": 0.7457431331276894,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction_source": "classifier+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0275.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "330bb1e9-84d6-4e41-afa9-938aee17ea29;mammalia;carnivora;ursidae;ursus;arctos;brown bear",
@@ -5054,14 +5054,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9955420907353982,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "330bb1e9-84d6-4e41-afa9-938aee17ea29;mammalia;carnivora;ursidae;ursus;arctos;brown bear",
+            "prediction_score": 0.9144791960716248,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0282.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
@@ -5102,14 +5102,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9999644984773113,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
+            "prediction_score": 0.9998751878738403,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0353.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "ee8d5a89-f82e-4323-80e2-0ffc9487ebaf;mammalia;carnivora;canidae;canis;lupus;grey wolf",
@@ -5139,14 +5139,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9995800487668021,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "ee8d5a89-f82e-4323-80e2-0ffc9487ebaf;mammalia;carnivora;canidae;canis;lupus;grey wolf",
+            "prediction_score": 0.9970747232437134,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0496.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "d372cda5-a8ca-4b7b-97ed-4e4fab9c9b4b;mammalia;cetartiodactyla;suidae;sus;scrofa;wild boar",
@@ -5209,14 +5209,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "f2d233e3-80e3-433d-9687-e29ecc7a467a;mammalia;;;;;mammal",
             "prediction_score": 0.8773476518690586,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction_source": "classifier+rollup_to_class",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0503.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "ee8d5a89-f82e-4323-80e2-0ffc9487ebaf;mammalia;carnivora;canidae;canis;lupus;grey wolf",
@@ -5279,14 +5279,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9992119410308078,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "ee8d5a89-f82e-4323-80e2-0ffc9487ebaf;mammalia;carnivora;canidae;canis;lupus;grey wolf",
+            "prediction_score": 0.9735177755355835,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0607.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "539ebd55-081b-429a-9ae6-5a6a0f6999d4;mammalia;cetartiodactyla;bovidae;bison;bison;american bison",
@@ -5316,14 +5316,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9904175586998463,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "8cf3fce2-0078-4347-9e46-5324fd12f8ed;mammalia;cetartiodactyla;bovidae;;;bovidae family",
+            "prediction_score": 0.983600202947855,
+            "prediction_source": "classifier+geofence+rollup_to_family",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0726.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "aaf3b049-36e6-46dd-9a07-8a580e9618b7;mammalia;carnivora;canidae;canis;latrans;coyote",
@@ -5353,14 +5353,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9886241969652474,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction": "d3d5325f-b055-4925-b875-5cd28af54215;mammalia;carnivora;canidae;canis;;canis species",
+            "prediction_score": 0.9672576156444848,
+            "prediction_source": "classifier+rollup_to_genus",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0800.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "9212982e-8a58-4775-a6ac-e9a43110d8f5;mammalia;carnivora;felidae;felis;catus;domestic cat",
@@ -5390,14 +5390,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9853365269955248,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction": "bb2c0674-6b2b-430f-8762-df186ec71098;mammalia;carnivora;felidae;felis;;felis species",
+            "prediction_score": 0.978894978761673,
+            "prediction_source": "classifier+rollup_to_genus",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0814.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "87be3a5c-e60a-4e7e-88c7-21544914d067;mammalia;didelphimorphia;didelphidae;didelphis;virginiana;virginia opossum",
@@ -5427,14 +5427,14 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+            "prediction": "f2d233e3-80e3-433d-9687-e29ecc7a467a;mammalia;;;;;mammal",
             "prediction_score": 0.9282222911715508,
-            "prediction_source": "classifier+rollup_to_kingdom",
+            "prediction_source": "classifier+rollup_to_class",
             "model_version": "4.0.1a"
         },
         {
             "filepath": "test_images/IMG_0894.JPG",
-            "country": "PL",
+            "country": "POL",
             "classifications": {
                 "classes": [
                     "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
@@ -5464,9 +5464,9 @@
                     ]
                 }
             ],
-            "prediction": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
-            "prediction_score": 0.9998974511963752,
-            "prediction_source": "classifier+geofence+rollup_to_kingdom",
+            "prediction": "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
+            "prediction_score": 0.9981661438941956,
+            "prediction_source": "classifier",
             "model_version": "4.0.1a"
         }
     ]
