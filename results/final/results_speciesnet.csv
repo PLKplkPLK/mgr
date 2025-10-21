@@ -1,0 +1,122 @@
+,image,present_animal,detected_animal,correct
+0,2020-01-07 00-47-51.JPG,jeleń szlachetny,common fallow deer,False
+1,2022-09-05 13-57-18.JPG,lis,red fox,False
+2,2022-09-06 19-34-11.JPG,lis,blank,False
+3,2022-09-10 22-41-29.JPG,borsuk,eurasian badger,False
+4,2022-09-13 01-29-08.JPG,kuna,martes species,False
+5,2022-09-13 06-37-29.JPG,wilk,coyote,False
+6,2022-09-14 22-40-23.JPG,kuna,blank,False
+7,2022-09-18 21-59-44.JPG,sarna,european roe deer,False
+8,2022-09-20 17-30-09.JPG,jeleń szlachetny,red deer,False
+9,2022-10-04 22-50-45.JPG,brak,blank,False
+10,2022-10-05 06-44-14.JPG,sarna,white-tailed deer,False
+11,2022-10-11 13-37-51.JPG,jeleń szlachetny,red deer,False
+12,2022-10-11 21-01-17.JPG,jeleń szlachetny,coyote,False
+13,2022-10-13 06-38-58.JPG,brak,blank,False
+14,2022-10-15 08-33-11.JPG,kuna,pine marten,False
+15,2022-10-30 20-48-28.JPG,lis,red fox,False
+16,2022-11-11 14-13-12.JPG,pies,domestic dog,False
+17,2022-11-16 23-45-52.JPG,tchórz,martes species,False
+18,2022-11-19 09-37-54.JPG,sarna,european roe deer,False
+19,2022-11-28 16-40-37.JPG,brak,blank,False
+20,2022-11-30 05-33-25.JPG,kuna,martes species,False
+21,2022-11-30 08-17-34.JPG,lis,blank,False
+22,2022-12-01 06-54-54.JPG,lis,red fox,False
+23,2022-12-01 16-59-50.JPG,żubr,american bison,False
+24,2022-12-03 04-00-38.JPG,jeleń szlachetny,blank,False
+25,2022-12-03 05-18-46.JPG,jeleń szlachetny,red deer,False
+26,2022-12-04 14-41-11.JPG,brak,blank,False
+27,2022-12-05 08-12-37.JPG,jeleń szlachetny,red deer,False
+28,2022-12-07 03-29-44.JPG,bóbr,northern raccoon,False
+29,2022-12-07 14-37-26.JPG,sarna,white-tailed deer,False
+30,2022-12-08 01-39-30.JPG,jeleń szlachetny,elk,False
+31,2022-12-08 04-05-01.JPG,lis,coyote,False
+32,2022-12-14 00-23-46.JPG,brak,european roe deer,False
+33,2022-12-15 03-24-41.JPG,jeleń szlachetny,white-tailed deer,False
+34,2022-12-16 02-26-35.JPG,sarna,european roe deer,False
+35,2022-12-23 03-59-18.JPG,jeleń szlachetny,white-tailed deer,False
+36,2022-12-23 04-14-51.JPG,wilk,coyote,False
+37,2022-12-27 21-51-25.JPG,jeleń szlachetny,white-tailed deer,False
+38,2023-01-01 08-20-10.JPG,sarna,european roe deer,False
+39,2023-02-03 00-53-19.JPG,sarna,european roe deer,False
+40,2023-02-03 06-38-18.JPG,kuna,martes species,False
+41,2023-02-04 05-07-49.JPG,lis,red fox,False
+42,2023-02-06 15-36-48.JPG,sarna,european roe deer,False
+43,2023-02-23 16-50-45.JPG,lis,red fox,False
+44,2023-02-27 23-23-21.JPG,kuna,martes species,False
+45,2023-02-28 04-18-55.JPG,wilk,grey wolf,False
+46,2023-03-01 20-06-01.JPG,kuna,martes species,False
+47,2023-03-04 01-35-07.JPG,zając,european hare,False
+48,2023-04-15 20-53-34.JPG,kuna,martes species,False
+49,2023-04-19 13-12-05.JPG,sarna,european roe deer,False
+50,2023-04-25 04-19-55.JPG,wilk,coyote,False
+51,2023-04-25 10-45-27.JPG,wiewiórka,eurasian red squirrel,False
+52,2023-04-25 18-58-29.JPG,dzik,wild boar,False
+53,2023-04-28 22-11-47.JPG,brak,wild boar,False
+54,2023-04-29 15-51-15.JPG,kuna,pine marten,False
+55,2023-05-01 00-04-04.JPG,brak,wild boar,False
+56,2023-05-01 20-37-52.JPG,brak,blank,False
+57,2023-05-02 02-56-03.JPG,sarna,european roe deer,False
+58,2023-05-04 06-46-05.JPG,jeleń szlachetny,blank,False
+59,2023-05-05 17-07-19.JPG,jeleń szlachetny,white-tailed deer,False
+60,2023-05-08 08-22-41.JPG,kuna,blank,False
+61,2023-05-08 17-09-11.JPG,dzik,wild boar,False
+62,2023-05-09 04-36-44.JPG,kuna,northern raccoon,False
+63,2023-05-09 07-34-05.JPG,sarna,european roe deer,False
+64,2023-05-10 00-01-03.JPG,brak,blank,False
+65,2023-05-15 00-07-06.JPG,jenot,northern raccoon,False
+66,2023-05-15 18-24-55.JPG,dzik,wild boar,False
+67,2023-05-24 07-52-51.JPG,sarna,european roe deer,False
+68,2023-05-28 06-50-32.JPG,dzik,wild boar,False
+69,2023-06-04 19-57-55.JPG,jeleń szlachetny,common fallow deer,False
+70,2023-06-14 13-04-45.JPG,brak,blank,False
+71,2023-07-05 08-07-38.JPG,jenot,blank,False
+72,2023-07-06 18-19-53.JPG,kuna,blank,False
+73,2023-07-07 03-11-31.JPG,sarna,european roe deer,False
+74,2023-07-08 07-43-18.JPG,jeleń szlachetny,red deer,False
+75,2023-07-09 19-30-17.JPG,wilk,grey wolf,False
+76,2023-07-10 04-41-00.JPG,dzik,wild boar,False
+77,2023-07-11 21-08-53.JPG,dzik,blank,False
+78,2023-07-11 22-53-21.JPG,borsuk,eurasian badger,False
+79,2023-07-15 14-26-37.JPG,jeleń szlachetny,white-tailed deer,False
+80,2023-07-16 01-15-57.JPG,popielica,blank,False
+81,2023-07-18 02-04-12.JPG,kuna,martes species,False
+82,2023-07-19 10-06-58.JPG,dzik,wild boar,False
+83,2023-07-25 22-50-58.JPG,wilk,coyote,False
+84,2023-07-26 01-13-30.JPG,borsuk,virginia opossum,False
+85,2023-07-27 00-39-21.JPG,brak,white-tailed deer,False
+86,2023-07-27 17-11-20.JPG,sarna,european roe deer,False
+87,2023-08-01 03-36-25.JPG,wiewiórka,red squirrel,False
+88,2023-08-02 06-17-17.JPG,sarna,white-tailed deer,False
+89,2023-08-04 02-12-23.JPG,sarna,european roe deer,False
+90,2023-08-05 10-24-22.JPG,jeleń szlachetny,blank,False
+91,2023-08-06 10-22-02.JPG,wiewiórka,eurasian red squirrel,False
+92,IMG_0006.JPG,łoś,moose,False
+93,IMG_0016.JPG,sarna,white-tailed deer,False
+94,IMG_0018.JPG,lis,red fox,False
+95,IMG_0035 (2).JPG,łoś,moose,False
+96,IMG_0035.JPG,sarna,european roe deer,False
+97,IMG_0036 (3).JPG,sarna,european roe deer,False
+98,IMG_0036.JPG,sarna,european roe deer,False
+99,IMG_0040.JPG,jeleń szlachetny,red deer,False
+100,IMG_0046.JPG,jeleń szlachetny,common fallow deer,False
+101,IMG_0050.JPG,wilk,grey wolf,False
+102,IMG_0055.JPG,jeleń szlachetny,red deer,False
+103,IMG_0058.JPG,łoś,moose,False
+104,IMG_0081.JPG,jeleń szlachetny,red deer,False
+105,IMG_0085.JPG,sarna,european roe deer,False
+106,IMG_0094.JPG,jeleń szlachetny,red deer,False
+107,IMG_0100.JPG,niedźwiedź,brown bear,False
+108,IMG_0125.JPG,ryś,leopard cat,False
+109,IMG_0130.JPG,niedźwiedź,brown bear,False
+110,IMG_0194.JPG,ryś,serval,False
+111,IMG_0275.JPG,niedźwiedź,brown bear,False
+112,IMG_0282.JPG,jeleń szlachetny,red deer,False
+113,IMG_0353.JPG,wilk,grey wolf,False
+114,IMG_0496.JPG,niedźwiedź,wild boar,False
+115,IMG_0503.JPG,wilk,grey wolf,False
+116,IMG_0607.JPG,żubr,american bison,False
+117,IMG_0726.JPG,wilk,coyote,False
+118,IMG_0800.JPG,żbik,domestic cat,False
+119,IMG_0814.JPG,bóbr,virginia opossum,False
+120,IMG_0894.JPG,jeleń szlachetny,red deer,False
