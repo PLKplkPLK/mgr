@@ -2,5 +2,10 @@ jupyterlab
 
 numpy
 pandas
+pillow
 
-
+torch
+torchvision
+ultralytics
+timm
+onnx2torch
