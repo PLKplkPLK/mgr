@@ -19,8 +19,10 @@ DFYOLOCOUNT_THRES = 0.6
 
 class Detector:
     def __init__(self, name=DFYOLO_NAME, threshold=None, countthreshold=None, humanthreshold=None):
-        print("Using "+DFYOLO_NAME+" with weights at "+DFYOLO_WEIGHTS+", in resolution 960x960")
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        print(f"Using {DFYOLO_NAME} with weights at {DFYOLO_WEIGHTS}, in resolution 960x960 on {self.device}")
         self.yolo = YOLO(DFYOLO_WEIGHTS)
+        self.yolo.to(self.device)
         self.imgsz = DFYOLO_WIDTH
         self.threshold = DFYOLO_THRES if threshold is None else threshold
         self.countthreshold = DFYOLOCOUNT_THRES if countthreshold is None else countthreshold
@@ -44,9 +46,7 @@ class Detector:
         if not len(detection.cls) or detection.conf[0] < self.threshold:
             # No. Image considered as empty
             return None, 0, np.zeros(4), 0, []
-        else:
-            # Yes. Non empty image
-            pass
+
         # Is there a relevant animal box? 
         try:
             # Yes. Selecting the best animal box
@@ -66,18 +66,14 @@ class Detector:
         else: 
             # No: return none
             return None, 0, np.zeros(4), 0, []
-        
+
         ## animal count
-        if category == 1:
-            count = sum((detection.conf>self.countthreshold) & (detection.cls==0)) # only above a threshold
-        else:
-            count = 0
-        ## human boxes
-        ishuman = (detection.cls==1) & (detection.conf>=self.humanthreshold)
-        if any(ishuman==True):
-            humanboxes = detection.xyxy[ishuman,]
-        else:
-            humanboxes = []
+        # if category == 1:
+        #     count = sum((detection.conf>self.countthreshold) & (detection.cls==0)) # only above a threshold
+        # else:
+        count = 0
+
+        humanboxes = []
 
         return croppedimage, category, box, count, humanboxes
 
