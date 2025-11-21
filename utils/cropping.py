@@ -14,15 +14,6 @@ def crop_normalized_bbox(img: Image.Image, bbox: list[float]):
     right  = int((x + w) * W)
     bottom = int((y + h) * H)
 
-    # TODO maybe square?
-    # xsize = (x2-x1)
-    # ysize = (y2-y1)
-    # if xsize>ysize:
-    #     y1 = y1-int((xsize-ysize)/2)
-    #     y2 = y2+int((xsize-ysize)/2)
-    # if ysize>xsize:
-    #     x1 = x1-int((ysize-xsize)/2)
-    #     x2 = x2+int((ysize-xsize)/2)
     return img.crop((left, top, right, bottom))
 
 def crop_normalized_bbox_square(img: Image.Image, bbox: list[float]):

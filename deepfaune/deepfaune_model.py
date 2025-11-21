@@ -1,12 +1,9 @@
-import os
 import sys
 
-import pandas as pd
 import numpy as np
 import torch
 import timm
 import torch.nn as nn
-# from ultralytics import YOLO
 from torch import tensor
 from torchvision.transforms import transforms, InterpolationMode
 
@@ -51,7 +48,8 @@ class Model(nn.Module):
         Constructor of model classifier
         """
         super().__init__()
-        self.base_model = timm.create_model(BACKBONE, pretrained=False, num_classes=len(class_names),
+        self.base_model = timm.create_model(BACKBONE, pretrained=False,
+                                            num_classes=len(class_names),
                                             dynamic_img_size=True)
         print(f"Using model in resolution {CROP_SIZE}x{CROP_SIZE}")
         self.backbone = BACKBONE
@@ -102,8 +100,11 @@ class Model(nn.Module):
             raise e
 
 
-def get_model(dfvit_weights: str = 'deepfaune/models/deepfaune-vit_large_patch14_dinov2.lvd142m.v4.pt') -> tuple[Deepfaune, list[str]]:
+def get_model(dfvit_weights: str = 'deepfaune/models/deepfaune-vit_large_patch14_dinov2.lvd142m.v4.pt') -> tuple[Model, transforms.Compose, list[str]]:
     """Return Deepfaune model and class names."""
 
     model = Deepfaune(dfvit_weights)
-    return model, class_names
+    model_transforms = model.transforms
+    classifier = model.model
+
+    return classifier, model_transforms, class_names
