@@ -9,3 +9,5 @@ torchvision
 ultralytics
 timm
 onnx2torch
+
+megadetector

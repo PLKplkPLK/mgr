@@ -13,8 +13,9 @@ venv/
 
 # models etc
 models/
-test_images/
+*.pt
 
 # data
+test_images/
 data/*
 !data/*.ipynb

@@ -1,11 +1,8 @@
 import numpy as np
-import pandas as pd
-import torch.nn as nn
 import torch
 from ultralytics import YOLO
 from PIL import Image
 from torch import tensor
-from torchvision.transforms import transforms, InterpolationMode
 
 DFYOLO_NAME = 'deepfaune-yolov8s_960'
 DFYOLO_PATH = '../deepfaune/models/'
@@ -18,10 +15,11 @@ DFYOLOHUMAN_THRES = 0.4 # boxes with human above this threshold are saved
 DFYOLOCOUNT_THRES = 0.6
 
 class Detector:
-    def __init__(self, name=DFYOLO_NAME, threshold=None, countthreshold=None, humanthreshold=None):
+    def __init__(self, name=DFYOLO_NAME, threshold=None, countthreshold=None,
+                 humanthreshold=None, dfyolo_weights:str = DFYOLO_WEIGHTS):
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        print(f"Using {DFYOLO_NAME} with weights at {DFYOLO_WEIGHTS}, in resolution 960x960 on {self.device}")
-        self.yolo = YOLO(DFYOLO_WEIGHTS)
+        print(f"Using {DFYOLO_NAME} with weights at {dfyolo_weights}, in resolution 960x960 on {self.device}")
+        self.yolo = YOLO(dfyolo_weights)
         self.yolo.to(self.device)
         self.imgsz = DFYOLO_WIDTH
         self.threshold = DFYOLO_THRES if threshold is None else threshold
