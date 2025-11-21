@@ -61,52 +61,6 @@ class SpeciesnetPolish(nn.Module):
         out = self.classifier(f)
         return out
 
-def predict(model, image, class_names: list[str], top_k: int = 5):
-    """image is PIL Image file."""
-    model.eval()
-
-    # image: PIL image
-    x = model.transform(image).unsqueeze(0).cuda() # (1, 3, 480, 480)
-    x.to('cuda')
-
-    with torch.no_grad():
-        logits = model(x)
-        probs = torch.softmax(logits, dim=1)
-
-    top_probs, top_idxs = probs.topk(top_k, dim=1)
-    
-    results = []
-    for p, idx in zip(top_probs[0], top_idxs[0]):
-        results.append((class_names[idx], float(p.item())))
-
-    return results
-
-def predict_batch(model, pil_images, class_names, top_k=5):
-    """
-    pil_images: list of PIL.Image
-    returns: list of list of (classname, prob)
-    """
-    model.eval()
-
-    # Transform images → stack into a batch
-    xs = [model.transform(im) for im in pil_images]  # list of tensors (3, 480, 480)
-    x = torch.stack(xs).to('cuda')                   # (B, 3, 480, 480)
-
-    with torch.no_grad():
-        logits = model(x)
-        probs = torch.softmax(logits, dim=1)
-
-    top_probs, top_idxs = probs.topk(top_k, dim=1)
-
-    results = []
-    for i in range(len(pil_images)):
-        r = []
-        for p, idx in zip(top_probs[i], top_idxs[i]):
-            r.append((class_names[idx], float(p.item())))
-        results.append(r)
-
-    return results
-
 def get_feature_extractor(
         model_path: str = "speciesnet/models/speciesnet-pytorch-v4.0.1a-v1/always_crop_99710272_22x8_v12_epoch_00148.pt",
         feature_node: str = "SpeciesNet/efficientnetv2-m/avg_pool/Mean_Squeeze__3825"):
