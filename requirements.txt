@@ -3,6 +3,8 @@ jupyterlab
 numpy
 pandas
 pillow
+seaborn
+scikit-learn
 
 torch
 torchvision

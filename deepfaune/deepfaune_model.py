@@ -19,6 +19,7 @@ class_names = [
         'porcupine', 'nutria', 'muskrat', 'raccoon', 'fox', 'reindeer',
         'wild boar', 'cow']
 
+
 class Deepfaune:
     def __init__(self, dfvit_weights):
         self.model = Model()
@@ -84,23 +85,29 @@ class Model(nn.Module):
         :param path: path of .pt save of model
         """
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        print("CUDA available" if torch.cuda.is_available() else "CUDA unavailable. Using CPU")
+        print("CUDA available" if torch.cuda.is_available()
+              else "CUDA unavailable. Using CPU")
 
         try:
             params = torch.load(path, map_location=device, weights_only=False)
             args = params['args']
             if self.nbclasses != args['num_classes']:
-                raise Exception("You load a model ({}) that does not have the same number of class"
-                                "({})".format(args['num_classes'], self.nbclasses))
+                raise Exception(f"You load a model ({args['num_classes']})"
+                                "that does not have the same number of "
+                                "class ({self.nbclasses})")
             self.backbone = args['backbone']
             self.nbclasses = args['num_classes']
             self.load_state_dict(params['state_dict'])
         except Exception as e:
-            print("Can't load checkpoint model because :\n\n " + str(e), file=sys.stderr)
+            print("Can't load checkpoint model because :\n\n " + str(e),
+                  file=sys.stderr)
             raise e
 
 
-def get_model(dfvit_weights: str = 'deepfaune/models/deepfaune-vit_large_patch14_dinov2.lvd142m.v4.pt') -> tuple[Model, transforms.Compose, list[str]]:
+def get_model(
+    dfvit_weights: str = 'deepfaune/models/'
+    'deepfaune-vit_large_patch14_dinov2.lvd142m.v4.pt') \
+        ->  tuple[Model, transforms.Compose, list[str]]:
     """Return Deepfaune model and class names."""
 
     model = Deepfaune(dfvit_weights)

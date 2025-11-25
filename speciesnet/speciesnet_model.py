@@ -1,9 +1,9 @@
 import torch
-from torch import tensor
 from torchvision.transforms import transforms, InterpolationMode
 
 
 CROP_SIZE = 480
+
 
 class Speciesnet:
     def __init__(self, model_path: str):
@@ -35,6 +35,6 @@ def get_model(model_path: str = 'speciesnet/models/speciesnet-pytorch-v4.0.1a-v1
     labels_file = 'speciesnet/models/speciesnet-pytorch-v4.0.1a-v1/always_crop_99710272_22x8_v12_epoch_00148.labels.txt'
     with open(labels_file, "r", encoding="utf-8") as f:
         class_names = [line.strip() for line in f if line.strip()]
-    
+
     model = Speciesnet(model_path)
     return model, class_names
