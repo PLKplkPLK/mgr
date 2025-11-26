@@ -22,7 +22,7 @@ class_names = [
 
 class Deepfaune:
     def __init__(self, dfvit_weights: str = 'models/deepfaune-vit_large_patch14_dinov2.lvd142m.v4.pt'):
-        self.model = Model()
+        self.model: Model = Model()
         self.model.loadWeights(dfvit_weights)
         # transform image to form usable by network
         self.transforms = transforms.Compose([

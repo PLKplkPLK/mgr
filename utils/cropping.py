@@ -1,7 +1,7 @@
 from PIL import Image
 
 
-def crop_normalized_bbox(img: Image.Image, bbox: list[float]):
+def crop_normalized_bbox(img: Image.Image, bbox: list[float]) -> Image.Image:
     """
     img: PIL.Image opened image
     bbox: list [x, y, w, h], normalized 0-1
@@ -18,7 +18,7 @@ def crop_normalized_bbox(img: Image.Image, bbox: list[float]):
     return img.crop((left, top, right, bottom))
 
 
-def crop_normalized_bbox_square(img: Image.Image, bbox: list[float]):
+def crop_normalized_bbox_square(img: Image.Image, bbox: list[float]) -> Image.Image:
     """
     img: PIL.Image opened image
     bbox: list [x, y, w, h], normalized 0-1

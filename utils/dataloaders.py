@@ -6,6 +6,7 @@ import pandas as pd
 from PIL import Image
 from torch.utils.data import DataLoader, Dataset
 from torchvision import datasets, transforms
+from torchvision.transforms.functional import pad
 
 from utils.cropping import crop_normalized_bbox_square
 from utils.class_names import class_to_idx, class_names
@@ -15,12 +16,30 @@ IMG_SIZE = 480
 VALID_EXT = (".jpg", ".jpeg", ".png", ".bmp", ".webp")
 
 
+class SquarePad:
+    def __call__(self, image):
+        w, h = image.size
+        max_dim = max(w, h)
+
+        pad_left   = (max_dim - w) // 2
+        pad_right  = max_dim - w - pad_left
+        pad_top    = (max_dim - h) // 2
+        pad_bottom = max_dim - h - pad_top
+
+        return pad(
+            image,
+            [pad_left, pad_top, pad_right, pad_bottom],
+            padding_mode='reflect'
+        )
+
+
 class CroppedImageDataset(Dataset):
-    def __init__(self, df, fraction=0.2):
+    def __init__(self, df, img_size: int):
         # keep only a fraction of rows (randomly)
-        self.df = df.sample(frac=fraction, random_state=42).reset_index(drop=True)
+        self.df = df
         self.transform = transforms.Compose([
-            transforms.Resize((IMG_SIZE, IMG_SIZE), interpolation=transforms.InterpolationMode.BICUBIC),
+            SquarePad(),
+            transforms.Resize((img_size, img_size), interpolation=transforms.InterpolationMode.BICUBIC),
             transforms.ToTensor()
         ])
 
@@ -53,8 +72,15 @@ def is_valid_image(path):
     dirname = os.path.basename(os.path.dirname(path))
     return dirname == "pictures_cropped" and path.lower().endswith(VALID_EXT)
 
-training_data_transforms = transforms.Compose([
-        transforms.Resize((IMG_SIZE, IMG_SIZE), interpolation=transforms.InterpolationMode.BICUBIC),
+def get_dataloaders(batch_size: int, img_size: int = IMG_SIZE) -> dict:
+    """
+    Returns dictionary with train_dataloader, test_dataloader,
+    train_dataset and test_dataset.
+    """
+    ### TRAIN ###
+    training_data_transforms = transforms.Compose([
+        SquarePad(),
+        transforms.Resize((img_size, img_size), interpolation=transforms.InterpolationMode.BICUBIC),
         transforms.RandomHorizontalFlip(),
         transforms.ColorJitter(
             brightness=0.2,
@@ -64,17 +90,14 @@ training_data_transforms = transforms.Compose([
         ),
         transforms.ToTensor()
     ])
-
-def get_dataloaders(batch_size: int) -> tuple[DataLoader, DataLoader]:
-    """Returns train_dataloader and test_dataloader."""
-    ### TRAIN ###
+    
     train_dataset = datasets.ImageFolder(
         root="../../data",
         transform=training_data_transforms,
         is_valid_file=is_valid_image,
     )
-    print('Number of classes: ', len(train_dataset.classes))
-    print('Number of images: ', len(train_dataset))
+    print('Number of train classes: ', len(train_dataset.classes))
+    print('Number of train images: ', len(train_dataset))
 
     train_dataloader = DataLoader(
         train_dataset,
@@ -84,6 +107,9 @@ def get_dataloaders(batch_size: int) -> tuple[DataLoader, DataLoader]:
         pin_memory=True
     )
 
+    if (train_dataset.class_to_idx != class_to_idx):
+        raise ValueError('Mapping doesn\'t match')
+
     ### TEST ###
     df = pd.read_csv('../../y_clean_thin.csv', index_col=0).sample(frac=0.2).reset_index(drop=True)
     df_mega = pd.read_csv('../../megadetector_results.csv', index_col=0)
@@ -92,7 +118,9 @@ def get_dataloaders(batch_size: int) -> tuple[DataLoader, DataLoader]:
     df = df.dropna()
     df = df[df["species"].isin(class_names)].reset_index(drop=True)
 
-    test_dataset = CroppedImageDataset(df)
+    test_dataset = CroppedImageDataset(df, img_size)
+    print('Number of test images: ', len(test_dataset))
+
     test_dataloader = DataLoader(
         test_dataset,
         batch_size=batch_size,
@@ -100,4 +128,9 @@ def get_dataloaders(batch_size: int) -> tuple[DataLoader, DataLoader]:
         num_workers=4,
     )
 
-    return train_dataloader, test_dataloader
+    return {
+        'train_dataloader': train_dataloader,
+        'test_dataloader': test_dataloader,
+        'train_dataset': train_dataset,
+        'test_dataset': test_dataset
+    }
