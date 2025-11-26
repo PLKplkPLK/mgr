@@ -21,7 +21,7 @@ class_names = [
 
 
 class Deepfaune:
-    def __init__(self, dfvit_weights):
+    def __init__(self, dfvit_weights: str = 'models/deepfaune-vit_large_patch14_dinov2.lvd142m.v4.pt'):
         self.model = Model()
         self.model.loadWeights(dfvit_weights)
         # transform image to form usable by network
@@ -102,16 +102,3 @@ class Model(nn.Module):
             print("Can't load checkpoint model because :\n\n " + str(e),
                   file=sys.stderr)
             raise e
-
-
-def get_model(
-    dfvit_weights: str = 'deepfaune/models/'
-    'deepfaune-vit_large_patch14_dinov2.lvd142m.v4.pt') \
-        ->  tuple[Model, transforms.Compose, list[str]]:
-    """Return Deepfaune model and class names."""
-
-    model = Deepfaune(dfvit_weights)
-    model_transforms = model.transforms
-    classifier = model.model
-
-    return classifier, model_transforms, class_names
