@@ -6,11 +6,12 @@ import timm
 import torch.nn as nn
 from torch import tensor
 from torchvision.transforms import transforms, InterpolationMode
+from utils.class_names import class_names as class_names_ft
 
 
-CROP_SIZE = 480
+CROP_SIZE = 476
 BACKBONE = "vit_large_patch14_dinov2.lvd142m"
-class_names = [
+class_names_og = [
         'bison', 'badger', 'ibex', 'beaver', 'red deer', 'golden jackal',
         'chamois', 'cat', 'goat', 'roe deer', 'dog', 'raccoon dog',
         'fallow deer', 'squirrel', 'moose', 'equid', 'genet', 'wolverine',
@@ -21,9 +22,9 @@ class_names = [
 
 
 class Deepfaune:
-    def __init__(self, dfvit_weights: str = 'models/deepfaune-vit_large_patch14_dinov2.lvd142m.v4.pt'):
-        self.model: Model = Model()
-        self.model.loadWeights(dfvit_weights)
+    def __init__(self, fine_tunned: bool = False, dfvit_weights: str = 'models/deepfaune-vit_large_patch14_dinov2.lvd142m.v4.pt'):
+        self.model: Model = Model(fine_tunned)
+        self.model.loadWeights(dfvit_weights, fine_tunned)
         # transform image to form usable by network
         self.transforms = transforms.Compose([
             transforms.Resize(
@@ -44,11 +45,12 @@ class Deepfaune:
 
 
 class Model(nn.Module):
-    def __init__(self):
+    def __init__(self, fine_tunned: bool):
         """
         Constructor of model classifier
         """
         super().__init__()
+        class_names = class_names_ft if fine_tunned else class_names_og
         self.base_model = timm.create_model(BACKBONE, pretrained=False,
                                             num_classes=len(class_names),
                                             dynamic_img_size=True)
@@ -80,7 +82,7 @@ class Model(nn.Module):
 
         return np.array(total_output)
 
-    def loadWeights(self, path):
+    def loadWeights(self, path: str, fine_tunned: bool):
         """
         :param path: path of .pt save of model
         """
@@ -90,14 +92,10 @@ class Model(nn.Module):
 
         try:
             params = torch.load(path, map_location=device, weights_only=False)
-            args = params['args']
-            if self.nbclasses != args['num_classes']:
-                raise Exception(f"You load a model ({args['num_classes']})"
-                                "that does not have the same number of "
-                                "class ({self.nbclasses})")
-            self.backbone = args['backbone']
-            self.nbclasses = args['num_classes']
-            self.load_state_dict(params['state_dict'])
+            if fine_tunned:
+                self.base_model.load_state_dict(params['state_dict'])
+            else:
+                self.load_state_dict(params['state_dict'])
         except Exception as e:
             print("Can't load checkpoint model because :\n\n " + str(e),
                   file=sys.stderr)

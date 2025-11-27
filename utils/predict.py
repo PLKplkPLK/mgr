@@ -1,13 +1,14 @@
 import torch
 from PIL import Image
+from torchvision import transforms
 
 
-def predict(model, image: Image.Image, class_names: list[str], top_k: int = 5):
+def predict(model, image: Image.Image, transform: transforms.Compose, class_names: list[str], top_k: int = 5):
     """image is PIL Image file."""
     model.eval()
 
     # image: PIL image
-    x = model.transform(image).unsqueeze(0).cuda() # (1, 3, 480, 480)
+    x = transform(image).unsqueeze(0).cuda() # (1, 3, 480, 480)
     x.to('cuda')
 
     with torch.no_grad():
@@ -22,7 +23,8 @@ def predict(model, image: Image.Image, class_names: list[str], top_k: int = 5):
 
     return results
 
-def predict_batch(model, pil_images: list[Image.Image], class_names, top_k: int=5):
+def predict_batch(model, pil_images: list[Image.Image], transform: transforms.Compose,
+                  class_names: list[str], top_k: int=5):
     """
     pil_images: list of PIL.Image
     returns: list of list of (classname, prob)
@@ -30,7 +32,7 @@ def predict_batch(model, pil_images: list[Image.Image], class_names, top_k: int=
     model.eval()
 
     # Transform images → stack into a batch
-    xs = [model.transform(im) for im in pil_images]  # list of tensors (3, 480, 480)
+    xs = [transform(im) for im in pil_images]  # list of tensors (3, 480, 480)
     x = torch.stack(xs).to('cuda')                   # (B, 3, 480, 480)
 
     with torch.no_grad():

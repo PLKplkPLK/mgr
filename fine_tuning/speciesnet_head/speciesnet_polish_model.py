@@ -72,13 +72,11 @@ def get_feature_extractor(
     return SpeciesnetFeatures(model, feature_node).to("cuda")
 
 def get_model(model_path: str = 'speciesnet/models/speciesnet-pytorch-v4.0.1a-v1/always_crop_99710272_22x8_v12_epoch_00148.pt',
-              checkpoint_path: str = 'fine_tuning/speciesnet_head/speciesnet_polish_checkpoint.pt') -> tuple[SpeciesnetPolish, list]:
+              checkpoint_path: str = 'fine_tuning/speciesnet_head/speciesnet_polish_checkpoint.pt') -> SpeciesnetPolish:
     ckpt = torch.load(checkpoint_path)
 
     feat_extractor = get_feature_extractor(model_path)
     model = SpeciesnetPolish(feat_extractor, ckpt['num_classes'])
     model.load_state_dict(ckpt['state_dict'])
 
-    class_names = ckpt['class_names']
-
-    return model, class_names
+    return model
