@@ -35,10 +35,9 @@ class SquarePad:
 
 class CroppedImageDataset(Dataset):
     def __init__(self, df, img_size: int):
-        # keep only a fraction of rows (randomly)
         self.df = df
         self.transform = transforms.Compose([
-            SquarePad(),
+            # SquarePad(),
             transforms.Resize((img_size, img_size), interpolation=transforms.InterpolationMode.BICUBIC),
             transforms.ToTensor()
         ])
@@ -79,7 +78,7 @@ def get_dataloaders(batch_size: int, img_size: int = IMG_SIZE) -> dict:
     """
     ### TRAIN ###
     training_data_transforms = transforms.Compose([
-        SquarePad(),
+        # SquarePad(),
         transforms.Resize((img_size, img_size), interpolation=transforms.InterpolationMode.BICUBIC),
         transforms.RandomHorizontalFlip(),
         transforms.ColorJitter(
@@ -103,7 +102,7 @@ def get_dataloaders(batch_size: int, img_size: int = IMG_SIZE) -> dict:
         train_dataset,
         batch_size=batch_size,
         shuffle=True,
-        num_workers=4,
+        num_workers=8,
         pin_memory=True
     )
 
@@ -111,7 +110,7 @@ def get_dataloaders(batch_size: int, img_size: int = IMG_SIZE) -> dict:
         raise ValueError('Mapping doesn\'t match')
 
     ### TEST ###
-    df = pd.read_csv('../../y_clean_thin.csv', index_col=0).sample(frac=0.2).reset_index(drop=True)
+    df = pd.read_csv('../../y_clean_thin.csv', index_col=0).sample(frac=0.3).reset_index(drop=True)
     df_mega = pd.read_csv('../../megadetector_results.csv', index_col=0)
     df = df.merge(df_mega, on='image_path')
     df.image_path = '../../' + df.image_path
@@ -125,7 +124,7 @@ def get_dataloaders(batch_size: int, img_size: int = IMG_SIZE) -> dict:
         test_dataset,
         batch_size=batch_size,
         shuffle=False,
-        num_workers=4,
+        num_workers=8,
     )
 
     return {
