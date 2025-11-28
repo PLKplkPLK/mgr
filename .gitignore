@@ -19,3 +19,5 @@ models/
 test_images/
 data/*
 !data/*.ipynb
+bear_retrain/
+bear_retrain_clean/

@@ -1,0 +1,28 @@
+species,Accuracy [%],count
+fallow deer,100.0,88
+wild boar,98.0,1284
+badger,95.7,139
+roe deer,95.6,2336
+lynx,94.4,18
+empty,94.0,3202
+fox,93.7,2036
+dog,93.6,47
+wolf,93.2,367
+red deer,92.2,2439
+squirrel,89.9,258
+hare,87.2,78
+bird,86.7,1243
+moose,86.5,266
+marten,86.2,470
+bison,85.8,850
+wildcat,85.0,60
+bear,72.7,132
+raccoon dog,72.5,51
+cat,68.8,16
+beaver,56.3,967
+otter,55.6,18
+polecat,33.3,6
+other,0.0,190
+mink,0.0,13
+rodent,0.0,21
+stoat,0.0,2
