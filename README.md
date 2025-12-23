@@ -1,4 +1,4 @@
-This is a repository with code used in the "Comparing and fine-tuning animals images classification models for polish species" research.
+This is a repository with code used in the ["Comparing and fine-tuning animals images classification models for polish species" research](results/report.pdf).
 
 An app using the fine-tuned DeepFaune model is also [available here](https://github.com/PLKplkPLK/animal_classification_app)
 
